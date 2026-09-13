@@ -536,10 +536,12 @@ a { color: inherit; }
   margin-top: 3.5rem;
   display: flex;
   flex-direction: column;
-  width: 120px;
+  width: 140px;
+  /* Official Pahang proportion is 1:2, in two equal bands. */
+  aspect-ratio: 2 / 1;
   border: 1px solid rgba(201, 207, 212, 0.35);
 }
-.pahang__flag span { height: 20px; }
+.pahang__flag span { flex: 1; }
 .pahang__flag span:first-child { background: #F5F5F2; }
 .pahang__flag span:last-child { background: #0C0C0C; }
 .pahang__flagnote {
