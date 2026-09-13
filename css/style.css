@@ -128,7 +128,7 @@ a { color: inherit; }
   text-decoration: none;
   color: var(--text-inv);
 }
-.nav__logo { height: 40px; width: auto; }
+.nav__logo { height: 46px; width: auto; }
 .nav__wordmark { display: flex; flex-direction: column; line-height: 1.25; }
 .nav__wordmark strong {
   font-family: var(--font-display);
@@ -604,7 +604,7 @@ a { color: inherit; }
   gap: 2.5rem;
   align-items: start;
 }
-.footer__logo { height: 52px; width: auto; margin-bottom: 1rem; }
+.footer__logo { height: 64px; width: auto; margin-bottom: 1rem; }
 .footer__brand strong { color: var(--text-inv); }
 .footer__brand p { font-size: 0.92rem; }
 .footer__nav { display: grid; gap: 0.5rem; }

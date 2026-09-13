@@ -11,8 +11,8 @@ and the white-over-black colours of the Pahang flag.
 - `index.html` — single-page site (hero, about, why Bentong, campus specs, sustainability, Pahang heritage, connectivity, contact)
 - `css/style.css` — design system and layout
 - `js/main.js` — mobile nav, stat counters, scroll reveals
-- `assets/logo.svg` — SVG recreation of the HE mark (emerald H, silver E)
-- `assets/favicon.svg` — favicon
+- `assets/logo.png` — the HE mark, web-sized from the supplied artwork (master kept as `assets/logo-original.png`)
+- `assets/favicon.png` — favicon generated from the same artwork
 - `CNAME` — custom domain for GitHub Pages (`heaidatacentre.com`)
 
 ## Local preview
