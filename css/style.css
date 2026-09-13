@@ -289,10 +289,8 @@ a { color: inherit; }
 }
 .section__body p + p { margin-top: 1rem; }
 
-/* ---------- artist's impressions ---------- */
-.section__inner--flush { padding-block-start: 0; }
-.figure { margin: 0; }
-.section--dark .figure { margin-top: clamp(2rem, 5vw, 3.5rem); }
+/* ---------- figures ---------- */
+.figure { margin: clamp(2rem, 5vw, 3.5rem) 0 0; }
 .figure img {
   width: 100%;
   display: block;
@@ -315,6 +313,7 @@ a { color: inherit; }
   flex: none;
 }
 .section--dark .figure figcaption { color: var(--text-inv-soft); }
+
 
 .ticks {
   margin-top: 1.6rem;
